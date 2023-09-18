@@ -1,29 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800;900&display=swap");
 body {
-  background: rgb(0, 0, 0);
-  color: white;
+  font-family: "poppins", sans-serif;
+  margin: 0px;
+  background-image: url(./img/80purp.jpg);
+  background-size: 100%;
 }
 
+nav {
+  background-color: #3b2d4c;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0px;
+  width: 100%;
+  box-sizing: ;
+  height: 65px;
+  border-left: 0px;
+  border-right: 0px;
+  border-color: #af8ae2;
+  border-style: solid;
+  text-decoration: none;
+  position: fixed;
+}
+.navbar-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  color: #ffffff;
+  padding-right: 50px;
+  padding-top: 10px;
 
-header {
-  background-color: rgb(161, 112, 174);
+  list-style: none;
+}
+
+.logo {
+  margin-left: 10px;
+}
+
+a:link {
+  text-decoration: none;
+  color: aliceblue;
+}
+a:visited {
+  color: aliceblue;
+}
+
+.menu-icon {
+  height: 30px;
+  margin-right: 40px;
+  padding-top: 12px;
+
+  margin-left: 50px;
+
+  width: 30px;
+}
+.hola {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 40;
-  position: fixed;
-  width: 100%;
-  height: 65px;
 }
-.navbar,
-.navbar-list {
+
+main {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  margin-top: px;
+}
+.portada-text {
+  color: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  width: 50%;
+  padding-right: 50px;
+}
+.h1portada {
+  font-size: 48px;
+}
+.pportada {
+  font-size: 25px;
+}
+
+.simio {
+  height: 300px;
+  width: 300px;
+  border-radius: 30px;
+  padding: 20px;
+  background-color: rgb(82, 49, 97);
+}
+.section1 {
+  margin: 120px;
+  gap: 100px;
+  padding-left: 120px;
+  max-width: 1200px;
+  display: flex;
   justify-content: center;
+  align-items: center;
+}
+.section2 {
+  max-width: 1200px;
+  margin: 30px 100px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+
+  padding-left: 80px;
 }
 
-.navbar {
-  gap: 10rem;
-}
+footer {
+  margin-top: 40px;
+  background-color: black;
+  content-visibility: auto;
 
-.navbar-list {
-  gap: 30px;
+  font-size: 15px;
+  color: #ffffff;
+  text-align: center;
+}

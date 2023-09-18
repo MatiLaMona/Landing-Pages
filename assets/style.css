@@ -99,7 +99,7 @@ main {
 }
 .section2 {
   max-width: 1200px;
-  margin: 20px 100px;
+  margin: 10px 100px;
   font-size: 20px;
   color: #ffffff;
   text-align: center;
@@ -108,7 +108,7 @@ main {
 }
 
 footer {
-  margin-top: 40px;
+  margin-top: 10px;
   background-color: black;
   content-visibility: auto;
 
